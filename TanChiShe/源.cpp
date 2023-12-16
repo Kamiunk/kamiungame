@@ -2,6 +2,7 @@
 #include<graphics.h>
 #include<conio.h>
 #include<stdlib.h>
+#include "game.h"
 
 
 #define X 500
@@ -218,21 +219,21 @@ void keyControl()
 }
 
 
-int main()
-{
-	GameInit();
-	while (1)
-	{
-		snakeMove();
-		GameDraw();
-		DrawFood();
-		keyControl();
-		EatFood();
-		Sleep(100);
-	}
-	
-	return 0;
-}
+//int main()
+//{
+//	GameInit();
+//	while (1)
+//	{
+//		snakeMove();
+//		GameDraw();
+//		DrawFood();
+//		keyControl();
+//		EatFood();
+//		Sleep(100);
+//	}
+//	
+//	return 0;
+//}
 
 /*
 	setcolor(WHITE);
